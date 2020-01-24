@@ -49,8 +49,6 @@ def movies_with_directors_set(source)
     index+=1
     
     
-    
-  
 
 
   
