@@ -45,7 +45,8 @@ def movies_with_directors_set(source)
   while index < source[:movies].length do
     
     
-    directors_movies[] = source[index][:name]
+    directors_names = source[index][:name]
+    directors_movies[directors_names] = source[index][:movies]
     index+=1
     
     
