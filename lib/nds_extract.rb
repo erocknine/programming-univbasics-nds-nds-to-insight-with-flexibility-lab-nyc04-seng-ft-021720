@@ -38,6 +38,7 @@ def movies_with_director_key(name, movies_collection)
   end
   movie_array
 end
+movie_with_director_name(source[index][:name], source[index][:movies])
 
 def movies_with_directors_set(source)
   directors_movies = []
