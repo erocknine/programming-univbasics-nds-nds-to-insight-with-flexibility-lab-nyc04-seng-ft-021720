@@ -57,6 +57,29 @@ def movies_with_director_key(name, movies_collection)
 end
 
 
+def movies_with_directors_set(source)
+  directors_movies = []
+  
+  directors_movies[] = source[index][:name]
+
+
+  
+  directors_movies
+end
+
+  # GOAL: For each director, find their :movies Array and stick it in a new Array
+  #
+  # INPUT:
+  # * source: An Array of Hashes containing director information including
+  # :name and :movies
+  #
+  # RETURN:
+  #
+  # Array of Hashes containing all of a director's movies. Each movie will need
+  # to have a :director_name key added to it.
+
+
+
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
   # return a Hash that includes the total worldwide_gross of all the movies from
   # each studio.
@@ -73,26 +96,8 @@ def gross_per_studio(collection)
   
 end
 
-  # GOAL: For each director, find their :movies Array and stick it in a new Array
-  #
-  # INPUT:
-  # * source: An Array of Hashes containing director information including
-  # :name and :movies
-  #
-  # RETURN:
-  #
-  # Array of Hashes containing all of a director's movies. Each movie will need
-  # to have a :director_name key added to it.
-
-def movies_with_directors_set(source)
-  directors_movies = []
-  
-  directors_movies[] = source[index][:name]
 
 
-  
-  directors_movies
-end
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
