@@ -40,7 +40,7 @@ def movies_with_director_key(name, movies_collection)
 end
 
 
-movie_with_director_key(source[index][:name], source[index][:movies])
+movie_with_director_key(source[index][:director_name], source[index][:movies])
 
 
 def movies_with_directors_set(source)
