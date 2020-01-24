@@ -87,7 +87,7 @@ end
 def movies_with_directors_set(source)
   directors_movies = []
   
-
+  directors_movies[] = source[index][:name]
 
 
   
