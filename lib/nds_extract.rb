@@ -44,16 +44,7 @@ movie_with_director_name(source[index][:name], source[index][:movies])
 
 
 def movies_with_directors_set(source)
-  directors_movies = []
-  index = 0
-  while index < source[:movies].length do
-    movies = 0
-    
-    directors_names = source[index][:name]
-    directors_movies[directors_names] = source[index][:movies]
-    index+=1
-  end
-  directors_movies
+  
 end
 
   # GOAL: For each director, find their :movies Array and stick it in a new Array
