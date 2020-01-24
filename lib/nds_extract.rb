@@ -36,7 +36,7 @@ def movies_with_director_key(name, movies_collection)
     movie_array.push(movie_with_director_name(name, movies_collection[index]))
     index+=1
   end
-  puts movie_array
+  movie_array
 end
 
 
