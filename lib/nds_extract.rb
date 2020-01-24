@@ -44,6 +44,8 @@ def movies_with_directors_set(source)
   directors_name_array = []
   index = 0
   while index < source.length do
+    
+    
     directors_name_array << movie_with_director_key(source[index][:director_name], source[index][:movies])
     index+=1
   end
