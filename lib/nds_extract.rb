@@ -85,7 +85,6 @@ end
   # to have a :director_name key added to it.
 
 def movies_with_directors_set(source)
-  pp source
   directors_movies = []
   
 
