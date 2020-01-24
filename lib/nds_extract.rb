@@ -40,9 +40,6 @@ def movies_with_director_key(name, movies_collection)
 end
 
 
-
-
-
 def movies_with_directors_set(source)
   directors_name_array = []
   index = 0
