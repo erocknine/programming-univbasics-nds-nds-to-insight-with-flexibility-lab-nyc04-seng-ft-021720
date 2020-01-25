@@ -42,7 +42,6 @@ end
 
 def movies_with_directors_set(source)
   directors_name_array = []
-  
   index = 0
   while index < source.length do
     directors_name = source[index][:name]
