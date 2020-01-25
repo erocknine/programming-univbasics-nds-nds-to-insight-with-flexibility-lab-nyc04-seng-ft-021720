@@ -39,7 +39,6 @@ def movies_with_director_key(name, movies_collection)
   movie_array
 end
 
-
 def movies_with_directors_set(source)
   directors_name_array = []
   index = 0
@@ -49,18 +48,6 @@ def movies_with_directors_set(source)
   end
   directors_name_array
 end
-
-  # GOAL: For each director, find their :movies Array and stick it in a new Array
-  #
-  # INPUT:
-  # * source: An Array of Hashes containing director information including
-  # :name and :movies
-  #
-  # RETURN:
-  #
-  # Array of Arrays containing all of a director's movies. Each movie will need
-  # to have a :director_name key added to it.
-
 
 
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
@@ -76,6 +63,8 @@ end
   # total of all the worldwide_gross numbers for every movie in the input Hash
 
 def gross_per_studio(collection)
+  
+  
   
 end
 
