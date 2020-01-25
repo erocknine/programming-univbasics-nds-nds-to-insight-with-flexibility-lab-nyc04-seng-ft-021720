@@ -66,6 +66,7 @@ end
 def gross_per_studio(collection)
   studio_gross = {}
   index = 0
+  puts collection
   while index < collection.length do
     
     if !studio_gross[index][:studio]
