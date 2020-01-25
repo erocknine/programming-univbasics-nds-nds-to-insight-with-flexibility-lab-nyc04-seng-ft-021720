@@ -79,8 +79,15 @@ def gross_per_studio(collection)
   studio_gross
 end
 
-
-
+def gross_per_studio(collection)
+  studio_gross = {}
+  total_gross = {}
+  index = 0
+  while index < collection.length do
+    
+    
+    
+    
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
