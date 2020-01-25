@@ -49,7 +49,6 @@ def movies_with_directors_set(source)
   directors_name_array
 end
 
-
 def gross_per_studio(collection)
   studio_gross = {}
   index = 0
